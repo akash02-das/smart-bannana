@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Smart Banana</title>
+
+    <!-- main.css -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- font awesome -->
+    <script src="./all.js"></script>
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- jquery ui css cdn -->
+    <link
+      rel="stylesheet"
+      href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"
+    />
+
+    <!-- magnific popup css -->
+    <link rel="stylesheet" href="./magnific popup/magnific-popup.css" />
+  
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="./owl/owl.carousel.min.css">
+
+  <!-- owl theme -->
+  <link rel="stylesheet" href="./owl/owl.theme.default.min.css">
+  
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav id="nav">
+        <div class="nav-logo">
+          <img src="./images/nav-logo.svg" alt="nav-logo" />
+          <i class="fas fa-arrow-down" id="toggle-btn"></i>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#skills">Services</a></li>
+          <li><a href="#form">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="nav-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div id="banner">
+        <div class="banner-text">
+          <h1>smart banana</h1>
+          <h3>this is what we do !</h3>
+          <a href="#">start now</a>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+    <!-- icon section -->
+    <section id="icon-section">
+      <a href="#"><i class="fas fa-home"></i></a>
+      <a href="#"><i class="fas fa-book"></i></a>
+      <a href="#"><i class="fas fa-coffee"></i></a>
+      <a href="#"><i class="fas fa-anchor"></i></a>
+    </section>
+    <!-- end of icon section -->
+    <!-- skills section -->
+    <section id="skills">
+      <!-- title -->
+      <div class="title">
+        <div class="title-icon">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <div class="title-text">
+          <h2>skills we provide</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="skills-center">
+        <!-- single skill -->
+        <article class="skill">
+          <div class="skill-icon">
+            <i class="fab fa-apple"></i>
+          </div>
+          <h3>apple</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Asperiores, quibusdam?
+          </p>
+        </article>
+        <!-- end single skill -->
+        <!-- single skill -->
+        <article class="skill">
+          <div class="skill-icon">
+            <i class="fab fa-google"></i>
+          </div>
+          <h3>google</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Asperiores, quibusdam?
+          </p>
+        </article>
+        <!-- end single skill -->
+        <!-- single skill -->
+        <article class="skill">
+          <div class="skill-icon">
+            <i class="fab fa-android"></i>
+          </div>
+          <h3>android</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Asperiores, quibusdam?
+          </p>
+        </article>
+        <!-- end single skill -->
+
+        <!-- single skill -->
+        <article class="skill">
+          <div class="skill-icon">
+            <i class="fas fa-cog"></i>
+          </div>
+          <h3>tools</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Asperiores, quibusdam?
+          </p>
+        </article>
+        <!-- end single skill -->
+      </div>
+    </section>
+    <!-- end of skills section -->
+
+    <!-- form section -->
+    <section id="form">
+      <div class="form-content">
+        <h1 class="form-title">subscribe here</h1>
+        <form>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+          />
+          <input type="submit" id="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+    <!-- end of form section -->
+    <!-- work section -->
+    <section id="work">
+      <!-- title -->
+      <div class="title">
+        <div class="title-icon">
+          <i class="fas fa-pen-square"></i>
+        </div>
+        <div class="title-text">
+          <h2>future projects</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="work-center">
+        <div class="button-container">
+          <div class="button-group filter-button-group">
+            <button data-filter="*">all</button>
+            <button data-filter=".city">city</button>
+            <button data-filter=".country">country</button>
+            <button data-filter=".water">water</button>
+          </div>
+        </div>
+        <div class="picture-container">
+          <article class="picture-item city">
+            <img src="./images/projects-city-1.jpeg" alt="work-1" />
+          </article>
+          <article class="picture-item country">
+            <img src="./images/projects-country-1.jpg" alt="work-1" />
+          </article>
+          <article class="picture-item water">
+            <img src="./images/projects-water-1.jpg" alt="work-1" />
+          </article>
+          <article class="picture-item city">
+            <img src="./images/projects-city-2.jpeg" alt="work-1" />
+          </article>
+          <article class="picture-item country">
+            <img src="./images/projects-country-2.jpeg" alt="work-1" />
+          </article>
+          <article class="picture-item water">
+            <img src="./images/projects-water-2.jpg" alt="work-1" />
+          </article>
+          <article class="picture-item city">
+            <img src="./images/projects-city-3.jpeg" alt="work-1" />
+          </article>
+          <article class="picture-item country">
+            <img src="./images/projects-country-3.jpeg" alt="work-1" />
+          </article>
+          <article class="picture-item water">
+            <img src="./images/projects-water-3.jpg" alt="work-1" />
+          </article>
+          <article class="picture-item city">
+            <img src="./images/projects-city-4.jpg" alt="work-1" />
+          </article>
+          <article class="picture-item country">
+            <img src="./images/projects-country-4.jpg" alt="work-1" />
+          </article>
+          <article class="picture-item water">
+            <img src="./images/projects-water-4.jpg" alt="work-1" />
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- end of work section -->
+
+    <!-- about section -->
+    <section id="about">
+      <!-- title -->
+      <div class="title">
+        <div class="title-icon">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="title-text">
+          <h2>about us</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div id="about-center">
+        <article id="about-photo">
+          <img src="./images/current-projects-1.jpeg" alt="current-projects" />
+        </article>
+        <article id="about-text">
+          <div id="accordion">
+            <h3>press here for more info</h3>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              deleniti error aut laudantium deserunt repellat consequatur sit
+              sed. Ullam, temporibus.
+            </div>
+            <h3>press here for more info</h3>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              deleniti error aut laudantium deserunt repellat consequatur sit
+              sed. Ullam, temporibus.
+            </div>
+            <h3>press here for more info</h3>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              deleniti error aut laudantium deserunt repellat consequatur sit
+              sed. Ullam, temporibus.
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- end of about section -->
+
+    <!-- current project section -->
+    <section id="current">
+      <!-- title -->
+      <div class="title">
+        <div class="title-icon">
+          <i class="fas fa-image"></i>
+        </div>
+        <div class="title-text">
+          <h2>current projects</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div id="current-center">
+        <!-- single current project -->
+        <article class="current-item">
+          <a href="./images/current-projects-1.jpeg">
+            <img src="./images/current-projects-1.jpeg" alt="current-project" />
+          </a>
+        </article>
+        <!-- end single current project -->
+        <!-- single current project -->
+        <article class="current-item">
+          <a href="./images/current-projects-2.jpg">
+            <img src="./images/current-projects-2.jpg" alt="current-project" />
+          </a>
+        </article>
+        <!-- end single current project -->
+        <!-- single current project -->
+        <article class="current-item">
+          <a href="./images/current-projects-3.jpg">
+            <img src="./images/current-projects-3.jpg" alt="current-project" />
+          </a>
+        </article>
+        <!-- end single current project -->
+        <!-- single current project -->
+        <article class="current-item">
+          <a href="./images/current-projects-4.jpg">
+            <img src="./images/current-projects-4.jpg" alt="current-project" />
+          </a>
+        </article>
+        <!-- end single current project -->
+        <!-- single current project -->
+        <article class="current-item">
+          <a href="./images/current-projects-5.jpg">
+            <img src="./images/current-projects-5.jpg" alt="current-project" />
+          </a>
+        </article>
+        <!-- end single current project -->
+        <!-- single current project -->
+        <article class="current-item">
+          <a href="./images/current-projects-6.jpg">
+            <img src="./images/current-projects-6.jpg" alt="current-project" />
+          </a>
+        </article>
+        <!-- end single current project -->
+        <!-- single current project -->
+        <article class="current-item">
+          <a href="./images/current-projects-7.jpg">
+            <img src="./images/current-projects-7.jpg" alt="current-project" />
+          </a>
+        </article>
+        <!-- end single current project -->
+        <!-- single current project -->
+        <article class="current-item">
+          <a href="./images/current-projects-8.jpg">
+            <img src="./images/current-projects-8.jpg" alt="current-project" />
+          </a>
+        </article>
+        <!-- end single current project -->
+      </div>
+    </section>
+    <!-- end of current project section -->
+
+    <!-- numbers section -->
+    <section id="numbers">
+      <!-- single number -->
+      <article class="number">
+        <i id="icon" class="fas fa-user"></i>
+        <p
+          class="numscroller"
+          data-min="1"
+          data-max="1000"
+          data-delay="1000"
+          data-increment="2"
+        >
+          1000
+        </p>
+        <h3>users</h3>
+      </article>
+      <!-- end single number -->
+      <!-- single number -->
+      <article class="number">
+        <i id="icon" class="fas fa-cart-plus"></i>
+        <p
+          class="numscroller"
+          data-min="1"
+          data-max="1000"
+          data-delay="1000"
+          data-increment="3"
+        >
+          1000
+        </p>
+        <h3>downloads</h3>
+      </article>
+      <!-- end single number -->
+      <!-- single number -->
+      <article class="number">
+        <i id="icon" class="fas fa-fire-extinguisher"></i>
+        <p
+          class="numscroller"
+          data-min="1"
+          data-max="1000"
+          data-delay="1000"
+          data-increment="1"
+        >
+          1000
+        </p>
+        <h3>emergencies</h3>
+      </article>
+      <!-- end single number -->
+      <!-- single number -->
+      <article class="number">
+        <i id="icon" class="fas fa-envelope"></i>
+        <p
+          class="numscroller"
+          data-min="1"
+          data-max="1000"
+          data-delay="1000"
+          data-increment="4"
+        >
+          1000
+        </p>
+        <h3>messages</h3>
+      </article>
+      <!-- end single number -->
+    </section>
+    <!-- end of numbers section -->
+    <!-- team section -->
+    <section id="team">
+      <!-- title -->
+      <div class="title">
+        <div class="title-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <div class="title-text">
+          <h2>meet our team</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div id="team-center">
+        <!-- single card -->
+        <article class="team-member">
+          <img src="./images/team-1.jpg" alt="img" />
+          <h2>john doe</h2>
+          <h5>developer</h5>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            illum perferendis explicabo quam deleniti asperiores, exercitationem
+            similique laboriosam aspernatur est.
+          </p>
+          <div class="team-member-footer">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus"></i></a>
+          </div>
+        </article>
+        <!-- end single card -->
+        <!-- single card -->
+        <article class="team-member">
+          <img src="./images/team-2.jpg" alt="img" />
+          <h2>john doe</h2>
+          <h5>developer</h5>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            illum perferendis explicabo quam deleniti asperiores, exercitationem
+            similique laboriosam aspernatur est.
+          </p>
+          <div class="team-member-footer">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus"></i></a>
+          </div>
+        </article>
+        <!-- end single card -->
+        <!-- single card -->
+        <article class="team-member">
+          <img src="./images/team-3.jpg" alt="img" />
+          <h2>john doe</h2>
+          <h5>developer</h5>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            illum perferendis explicabo quam deleniti asperiores, exercitationem
+            similique laboriosam aspernatur est.
+          </p>
+          <div class="team-member-footer">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus"></i></a>
+          </div>
+        </article>
+        <!-- end single card -->
+        <!-- single card -->
+        <article class="team-member">
+          <img src="./images/team-4.jpg" alt="img" />
+          <h2>john doe</h2>
+          <h5>developer</h5>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            illum perferendis explicabo quam deleniti asperiores, exercitationem
+            similique laboriosam aspernatur est.
+          </p>
+          <div class="team-member-footer">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus"></i></a>
+          </div>
+        </article>
+        <!-- end single card -->
+      </div>
+    </section>
+    <!-- end of team section -->
+
+    <!-- progress bars section -->
+    <section id="progress-bars">
+      <div class="progress-center">
+        <!-- single bar -->
+        <div class="progress-item">
+          <div class="progress-text">
+            <h2>html</h2>
+            <h2>85%</h2>
+          </div>
+          <div id="p-bar-1"></div>
+        </div>
+        <!-- end single bar -->
+        <!-- single bar -->
+        <div class="progress-item">
+          <div class="progress-text">
+            <h2>css</h2>
+            <h2>75%</h2>
+          </div>
+          <div id="p-bar-2"></div>
+        </div>
+        <!-- end single bar -->
+        <!-- single bar -->
+        <div class="progress-item">
+          <div class="progress-text">
+            <h2>javascript</h2>
+            <h2>60%</h2>
+          </div>
+          <div id="p-bar-3"></div>
+        </div>
+        <!-- end single bar -->
+        <!-- single bar -->
+        <div class="progress-item">
+          <div class="progress-text">
+            <h2>php</h2>
+            <h2>70%</h2>
+          </div>
+          <div id="p-bar-4"></div>
+        </div>
+        <!-- end single bar -->
+      </div>
+    </section>
+    <!-- end of progress bars section -->
+
+    <!-- pricing section -->
+    <section id="pricing">
+      <!-- title -->
+      <div class="title">
+        <div class="title-icon">
+          <i class="far fa-money-bill-alt"></i>
+        </div>
+        <div class="title-text">
+          <h2>our amazing prices</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <div class="pricing-center">
+        <!-- pricing card -->
+        <article class="pricing-card">
+          <h3>startup</h3>
+          <h1>$0</h1>
+          <ul>
+            <li class="price-list">
+              <i id="icon" class="fas fa-check"></i>
+              <p>sharing tools</p>
+            </li>
+            <li class="price-list">
+              <i id="icon" class="fas fa-check"></i>
+              <p>design tools</p>
+            </li>
+            <li class="price-list">
+              <i id="icon" class="fas fa-times"></i>
+              <p>private messages</p>
+            </li>
+            <li class="price-list">
+              <i id="icon" class="fas fa-times"></i>
+              <p>personal brand</p>
+            </li>
+          </ul>
+          <a href="#">upgrade plan</a>
+        </article>
+        <!-- end pricing card -->
+        <!-- pricing card -->
+        <article class="pricing-card custom">
+          <h3>pro</h3>
+          <h1>$50</h1>
+          <ul>
+            <li class="price-list">
+              <i id="icon" class="fas fa-check"></i>
+              <p>sharing tools</p>
+            </li>
+            <li class="price-list">
+              <i id="icon" class="fas fa-check"></i>
+              <p>design tools</p>
+            </li>
+            <li class="price-list">
+              <i id="icon" class="fas fa-check"></i>
+              <p>private messages</p>
+            </li>
+            <li class="price-list">
+              <i id="icon" class="fas fa-times"></i>
+              <p>personal brand</p>
+            </li>
+          </ul>
+          <a href="#">upgrade plan</a>
+        </article>
+        <!-- end pricing card -->
+        <!-- pricing card -->
+        <article class="pricing-card">
+          <h3>commercial</h3>
+          <h1>$100</h1>
+          <ul>
+            <li class="price-list">
+              <i id="icon" class="fas fa-check"></i>
+              <p>sharing tools</p>
+            </li>
+            <li class="price-list">
+              <i id="icon" class="fas fa-check"></i>
+              <p>design tools</p>
+            </li>
+            <li class="price-list">
+              <i id="icon" class="fas fa-check"></i>
+              <p>private messages</p>
+            </li>
+            <li class="price-list">
+              <i id="icon" class="fas fa-check"></i>
+              <p>personal brand</p>
+            </li>
+          </ul>
+          <a href="#">upgrade plan</a>
+        </article>
+        <!-- end pricing card -->
+      </div>
+    </section>
+    <!-- end of pricing section -->
+
+    <!-- quotes section -->
+<section id="quotes">
+  <!-- title -->
+  <div class="title">
+    <div class="title-icon">
+      <i class="fas fa-comments"></i>
+    </div>
+    <div class="title-text">
+      <h2>what they say</h2>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+  </div>
+  <!-- end of title -->
+  <div class="quotes-center owl-carousel owl-theme">
+    <!-- single quote -->
+    <article class="quote">
+<img src="./images/team-1.jpg" alt="image">
+<blockquote>
+  <p><i id="icon" class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, delectus?</p>
+<footer>-customer</footer>
+</blockquote>
+</article>
+<!-- end of single quote -->
+<!-- single quote -->
+<article class="quote">
+  <img src="./images/team-2.jpg" alt="image">
+  <blockquote>
+    <p><i id="icon" class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, delectus?
+    </p>
+    <footer>-customer</footer>
+  </blockquote>
+</article>
+<!-- end of single quote -->
+<!-- single quote -->
+<article class="quote">
+  <img src="./images/team-3.jpg" alt="image">
+  <blockquote>
+    <p><i id="icon" class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, delectus?
+    </p>
+    <footer>-customer</footer>
+  </blockquote>
+</article>
+<!-- end of single quote -->
+<!-- single quote -->
+<article class="quote">
+  <img src="./images/team-4.jpg" alt="image">
+  <blockquote>
+    <p><i id="icon" class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, delectus?
+    </p>
+    <footer>-customer</footer>
+  </blockquote>
+</article>
+<!-- end of single quote -->
+  </div>
+</section>
+    <!-- end of quotes section -->
+
+    <!-- footer -->
+<footer id="footer">
+  <section id="footer-info">
+    <div class="info-center">
+      <div class="info-item">
+        <i id="icon" class="fas fa-check"></i>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, officia!</p>
+      </div>
+      <div class="info-item">
+        <i id="icon" class="fas fa-check"></i>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, officia!</p>
+      </div>
+      <div class="info-item">
+        <i id="icon" class="fas fa-check"></i>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, officia!</p>
+      </div>
+      <div class="info-item">
+        <i id="icon" class="fas fa-check"></i>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, officia!</p>
+      </div>
+    </div>
+  </section>
+  <section id="footer-map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.8223908687!2d90.27923710646989!3d23.780887457084543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1566232397649!5m2!1sen!2sbd"
+      width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </section>
+</footer>
+    <!-- end of footer -->
+
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- images loaded -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+    <!-- isotope -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- iso.js -->
+    <script src="iso.js"></script>
+
+    <!-- jquery ui cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- magnific popup -->
+    <script src="./magnific popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- magnific.js -->
+    <script src="./magnific popup/magnific.js"></script>
+
+    <!-- numscroller -->
+    <script src="./numscroller-1.0.js"></script>
+
+    <!-- owl js -->
+    <script src="./owl/owl.carousel.min.js"></script>
+
+    <!-- js -->
+    <script src="./script.js"></script>
+  </body>
+</html>
